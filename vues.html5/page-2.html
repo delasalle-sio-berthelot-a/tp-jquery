@@ -6,31 +6,23 @@
 	
 	<style>
 	body {
-	margin: 10px;
-	font: 0.8em Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 90% arial, helvetica, sans-serif;
 	}
-	.menu{
-	width: 200px;
-	}
-	.menu_chapitre {
-	padding: 5px;
-	cursor:pointer;
-	position:relative;
-	margin:1px;
-	font-weight:bold;
-	background: #9cf;
-	border:1px solid black;
-	}
-	.menu_point a{
-	display: block;
-	color:black;
-	background-color: white;
-	padding-left:30px;
+	.lien{
 	text-decoration: none;
+	border-bottom: 1px dashed black;
+	color: black;
 	}
-	.menu_point a:hover {
-	color:black;
-	text-decoration: underline;
+	
+	#infobulle{
+	position: absolute;
+	border:1px solid black;
+	background: #9cf;
+	padding:2px 5px;
+	display: none;
 	}
 	</style>
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js">
